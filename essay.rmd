@@ -1,1 +1,18 @@
+---
+title: "Privacy Essay"
+output:
+    pdf_document:
+        citation_package: biblatex
+bibliography: bibliography.bib
+documentclass: article
+fontsize: 11pt
+geometry: margin=1in
+---
+
 Hello *RMarkdown*!
+
+
+Trying to cite Solove here [@solove2007ve, p. 4]
+
+
+Did it work?
