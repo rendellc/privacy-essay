@@ -1,4 +1,4 @@
 
 
-essay.pdf: essay.rmd
-	pandoc --filter pandoc-citeproc essay.rmd -o essay.pdf
+essay.pdf: essay.md
+	pandoc --filter pandoc-citeproc essay.md -o essay.pdf
