@@ -2,8 +2,11 @@
 title: "Privacy Essay"
 output: pdf\_document
 documentclass: article
-fontsize: 11pt
+fontsize: 12pt
 geometry: margin=1in
+header-includes:
+- \usepackage{setspace}
+	- \renewcommand{\baselinestretch}{1.5}
 bibliography: bibliography.bib
 ---
 # Privacy essay
@@ -36,6 +39,10 @@ Viewing privacy in this manner, Solove argues, will allow us to focus on the pro
 > Personal data is any information that relates to identified or identifiable living individual. 
 
 When multiple pieces of pseudonymized data can be combined to identify a person, then it also counts as personal data. With GDPR, there is this idea that persons own their personal data, and personal data is any information about a person that has not been anonymized. Solove's taxonomy of privacy goes well with the notion of personal data, because the taxonomy lays out areas where personal data might be used. 
+
+
+*Nissenbaum argues well for another view of privacy. I short, privacy is the expectation of contextual integrity. This view is able to explain well when and why we feel that privacy has been violated in some contexts. Should find a way to merge this with Solove's view. *
+
 
 For the remainder of this essay we will use this pluralistic notion of privacy and attempt to reframe questions of privacy in terms of personal data, as this might help us value privacy against other important values. 
 
@@ -81,8 +88,24 @@ Outline of an example to make the discussion clearer. Want to be able to argue t
 - Alice is a person.
 - She usually goes to the same store to shop for daily groceries.
 - Before paying, she swipes her member card, giving her a small discount. 
-- The store builds up a shopping profile of her over time. Based on the items she buys, they estimate her income, hobbies, dietary interests, whether she has pets. She shops at quite irregular times so the store infers that she is most likely a student. Based on her purchases they are able to estimate that she is a female, vegetarian,  non-smoker, above average healthy person.
+- The store builds up a shopping profile of her over time. Based on the items she buys, they estimate her income, hobbies, dietary interests, whether she has pets. She shops at quite irregular times so the store infers that she is most likely a student. Based on her purchases they are able to estimate that she is a female, vegetarian, non-smoker, above average healthy person.
 - The store sells this profile to an advertisement company for further use. 
+
+
+### todo
+*this section contains notes about things I wish to include but have not found a proper place for in the text.*
+
+What are the consequences of privacy violations? This will be dependent on the situation but it should be possible to articulate what they are in the example above
+
+Stanley Benn: Privacy founded on utilitarian concerns are prone to misuse. Attempts to base privacy on a fundamental respect for persons. 
+> Covert observation—spying—is objectionable because it deliberately deceives a person about his world [that is, it transforms the situation he thinks is unobserved into one which is observed], thwarting, for reasons that *cannot* be his reasons, his attempts to make a rational choice. 
+
+Jeffrey Reimann builds upon Benn’s view of privacy
+> Privacy is a social ritual be means of which an individual’s moral title is conferred.
+[^13]
+
+Health-monitoring and contextual privacy:
+If we buy a smartwatch which monitors our health, we give up privacy of that health data in a very specific context. We expect the data to be analyzed and help us make more healthy choices or understand our bodies. If the health data is also sold to and insurance company, it would violate our privacy because the data will then be used in an entirely different context. 
 
 [^1]:	TODO: this intro needs to updated
 
@@ -107,3 +130,5 @@ Outline of an example to make the discussion clearer. Want to be able to argue t
 [^11]:	quote from Alberto Gonzales here
 
 [^12]:	write this in proper form
+
+[^13]:	conferred=“granted/given/has”
